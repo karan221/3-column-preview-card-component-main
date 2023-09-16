@@ -73,4 +73,15 @@ main .container .card button {
 }
 main .container .card button:hover {
   cursor: pointer;
+}
+
+@media (min-width: 40rem) {
+  main .container {
+    flex-direction: row;
+    max-width: unset;
+  }
+  main .container .card p {
+    margin-bottom: 3rem;
+    max-width: 12rem;
+  }
 }/*# sourceMappingURL=style.css.map */
